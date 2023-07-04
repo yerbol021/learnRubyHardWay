@@ -27,3 +27,7 @@ puts sparky.info      # => Sparky weighs 10 lbs and is 12 inches tall.
 
 sparky.change_info('Spartacus', '24 inches', '45 lbs')
 puts sparky.info      # => Spartacus weighs 45 lbs and is 24 inches tall.
+
+class MyCar
+attr_accessor :year, : color, :model
+end
